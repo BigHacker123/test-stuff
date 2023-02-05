@@ -25,7 +25,7 @@ local function CDKANQ_fake_script() -- ImageLabel.LocalScript
   sound.Volume = 2.5
   sound.Parent = game:GetService("SoundService")
   sound:Play()
-  wait(2)
+  wait(3)
   sound:Remove()
   ScreenGui:Remove()
 end
