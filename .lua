@@ -10,7 +10,7 @@ ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BackgroundTransparency = 1.000
 ImageLabel.Position = UDim2.new(0.499587119, 0, 0.5, 0)
 ImageLabel.Size = UDim2.new(0, 288, 0, 279)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=12350139398"
+ImageLabel.Image = "http://www.roblox.com/asset/?id=12412456092"
 
 local function CDKANQ_fake_script() -- ImageLabel.LocalScript
   local script = Instance.new('LocalScript', ImageLabel)
