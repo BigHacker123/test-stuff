@@ -16,16 +16,16 @@ local function CDKANQ_fake_script() -- ImageLabel.LocalScript
   local script = Instance.new('LocalScript', ImageLabel)
   local Object = script.Parent
 
-  wait(1)
+  wait(0)
   Object:TweenSize(UDim2.new(0,0,0,0))
-  wait(1)
+  wait(0)
 
   local sound = Instance.new("Sound")
   sound.SoundId = "rbxassetid://253277644"
   sound.Volume = 2.5
   sound.Parent = game:GetService("SoundService")
   sound:Play()
-  wait(3)
+  wait(1)
   sound:Remove()
   ScreenGui:Remove()
 end
